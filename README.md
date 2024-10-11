@@ -22,7 +22,8 @@ This project allows users to upload an image, generate a depth map, and view a 3
 
 ### Backend:
 - Python (Flask)
-- OpenCV (for depth map generation)
+- OpenCV (for image processing)
+- Pytorch (MiDaS - computes relative inverse depth) 
 
 ## Video on How it works
 [![Watch the video](https://img.youtube.com/vi/op4MsEdGXvk/0.jpg)](https://youtu.be/op4MsEdGXvk)
