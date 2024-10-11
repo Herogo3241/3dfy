@@ -100,3 +100,8 @@ Contributions are welcome! Please open an issue or create a pull request.
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
 
+
+## References
+
+- Ranftl, R., Lasinger, K., Hafner, D., Schindler, K., & Koltun, V. (2020). Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer. *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*.
+
