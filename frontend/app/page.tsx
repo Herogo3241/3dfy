@@ -32,14 +32,14 @@ export default function Home() {
 
     try {
       // Send file to Flask backend
-      const response = await fetch("https://threedfy-1.onrender.com/upload", {
+      const response = await fetch("http://localhost:5000/upload", {
         method: "POST",
         body: formData,
       });
 
       const data = await response.json();
-      const depthMapUrl = `https://threedfy-1.onrender.com${data.depth_map_url}`;
-      const originalImageUrl = `https://threedfy-1.onrender.com${data.original_image_url}`;
+      const depthMapUrl = `http://localhost:5000${data.depth_map_url}`;
+      const originalImageUrl = `http://localhost:5000${data.original_image_url}`;
       
       setDepthMapUrl(depthMapUrl);
       setOriginalImageUrl(originalImageUrl);
